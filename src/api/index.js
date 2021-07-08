@@ -38,3 +38,4 @@ export const deleteUserDetail = (id) => API.delete(`/admin/${id}`);
 export const getUserName  = (searchQuery) => API.get(`/admin/search?searchQuery=${searchQuery.search}`)
 //export const getUserName = (searchQuery)=> API.get(`/admin/search?searchQuery=${searchQuery.search}`)
 // end of admin api for fetching data from backend
+// upload to github
