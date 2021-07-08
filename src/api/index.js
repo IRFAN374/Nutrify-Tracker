@@ -1,8 +1,8 @@
 import axios from 'axios';
-
-
+//http://localhost:5000/
+//https://nutrify-tracker.herokuapp.com/
 const API = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://nutrify-tracker.herokuapp.com/'
 });
 API.interceptors.request.use((req)=>{
     if(localStorage.getItem('profile')){
